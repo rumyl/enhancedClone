@@ -17,7 +17,7 @@ function Header() {
             </p>
 
             <p className="leading-none pr-9">
-              <span className="navtitle-md font-semibold text-white  pl-8">CONTACT US</span>
+            <Link to ="Contact"><span className="navtitle-md font-semibold text-white  pl-8">CONTACT US</span></Link>
             </p>   
        
         </Navbar.Brand>
@@ -34,29 +34,29 @@ function Header() {
        
       </Navbar>
       <div className="items-left bg-white-100 p-2">
-        {/* Navigation */}
+        
         <div className="ml-auto p-4 pl-11">
         <Link to = "Manhua" className="text-green-800 hover:text-pink ml-4 pl-10">
             MANHUA
           </Link>
-          <Link to="MangaSect" className="text-green-800 hover:text-pink ml-4 pl-5">
+          <Link to="Manga" className="text-green-800 hover:text-pink ml-4 pl-5">
             MANGA SECT
          </Link>
           <Link to="Patreon" className="text-green-800 hover:text-pink ml-4 pl-5">
             PATREON
          </Link>
-          <Link to="Paypal" className="text-green-800 hover:text-pink ml-4 pl-5">
-            PAYPAL
+          <Link to="Donations" className="text-green-800 hover:text-pink ml-4 pl-5">
+            DONATIONS
          </Link>
           <Link to="More" className="text-green-800 hover:text-pink ml-4 pl-5">
             MORE   
          </Link>
 
-          <Link to="#" className="text-black hover:text-pink float-right pr-5">
-          <button type="button" class=" px-5 mr-2 mb-2 text-sm  text-gray-900 focus:outline-none bg-white rounded-full border border-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">SIGN UP</button>
+          <Link to="Registration" className="text-black hover:text-pink float-right pr-5">
+            <button type="button" class=" px-5 mr-2 mb-2 text-sm  text-gray-900 focus:outline-none bg-white rounded-full border border-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">SIGN UP</button>
          </Link>
-          <Link to="#" className="text-black hover:text-pink float-right">
-          <button type="button" class=" px-5 mr-2 mb-2 text-sm text-gray-900 focus:outline-none bg-white rounded-full border border-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">SIGN IN</button>
+          <Link to="Login" className="text-black hover:text-pink float-right">
+            <button type="button" class=" px-5 mr-2 mb-2 text-sm text-gray-900 focus:outline-none bg-white rounded-full border border-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">SIGN IN</button>
          </Link>
         </div>
         

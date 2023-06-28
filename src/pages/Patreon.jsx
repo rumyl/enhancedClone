@@ -1,6 +1,5 @@
 "use client";
-import { Button, Card } from 'flowbite-react';
-import { Alert } from 'flowbite-react';
+import { Button, Card, Alert } from 'flowbite-react';
 import Footer from "../layouts/Footer";
 import "../assets/styles/index.css";
 
